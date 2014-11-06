@@ -4,7 +4,7 @@
   "description": "",
   "main": "final-boss-cat.js",
   "scripts": {
-    "test": "tape test/*.js | tap-spec"
+    "test": "6to5 es6/final-boss-cat.js --out-file final-boss-cat-es5.js && tape test/*.js | tap-spec"
   },
   "repository": {
     "type": "git",
