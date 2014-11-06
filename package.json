@@ -1,0 +1,19 @@
+{
+  "name": "final-boss-cat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "final-boss-cat.js",
+  "scripts": {
+    "test": "tape test/*.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gist.github.com/ecaa7dcb6f7ad433d4b4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tap-spec": "^1.0.1",
+    "tape": "^3.0.2"
+  }
+}
